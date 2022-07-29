@@ -1,0 +1,8 @@
+project: libyuarel
+target: libyuarel-fuzz
+testsuite:
+  - file://fuzz/corpus
+
+cmds:
+  - cmd: /yuarel-fuzz
+    libfuzzer: true
